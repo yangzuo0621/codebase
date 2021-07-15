@@ -22,10 +22,10 @@ jobs:
 
     - name: Build
       run: |
-        cd golang/github
+        cd golang/devtool
         go build -v ./...
 
     - name: Test
       run: |
-        cd golang/github
+        cd golang/devtool
         go test -v ./...
