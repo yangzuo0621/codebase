@@ -91,6 +91,7 @@ func createGetCommand() *cobra.Command {
 }
 
 // https://docs.github.com/en/rest/reference/pulls#create-a-pull-request
+// ./devtool github pr-create --owner yangzuo0621 --repository codebase --base main --head zuya/create-pr-command --title "add create pr command" --body "add create pull request command"
 func createPullRequestCommand() *cobra.Command {
 	var (
 		flagRepository string
